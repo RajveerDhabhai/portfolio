@@ -1,0 +1,84 @@
+/* Navbar container */
+.navbar {
+  background-color: #191919; /* Dark background for navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Logo styles */
+.navbar-logo-link {
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Navbar links container */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+/* Individual link styles */
+.navbar-link {
+  color: #646464; /* Lighter grey color for the links */
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1rem;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+/* Hover effect for links */
+.navbar-link:hover {
+  color: white;
+  text-shadow: 0 0 10px white, 0 0 20px white;
+}
+
+/* Hamburger icon styles */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+}
+
+/* Hamburger styles for smaller screens */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none; /* Hide links by default on smaller screens */
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    position: absolute; /* Position menu absolutely */
+    top: 60px; /* Place below the navbar */
+    left: 0;
+    background-color: #191919; /* Use the same dark background for the dropdown */
+  }
+
+  .navbar-links.active {
+    display: flex; /* Show links when 'active' class is added */
+  }
+
+  /* Show hamburger icon on small screens */
+  .hamburger {
+    display: block; /* Make hamburger visible */
+  }
+
+  /* Navbar links should take full width when menu is opened */
+  .navbar-links li {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  /* Optional: Add transition for smooth menu toggle */
+  .navbar-links {
+    transition: all 0.3s ease;
+  }
+}

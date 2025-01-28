@@ -1,0 +1,87 @@
+/* General Styles for Projects Page */
+.projects {
+  background-color: #191919;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.projects-heading h1 {
+  font-size: 2.5rem;
+  color: #C83232;
+  margin-bottom: 20px;
+}
+
+.projects-heading p {
+  font-size: 1.2rem;
+  color: #646464;
+  margin-bottom: 40px;
+}
+
+/* Project Tiles Grid */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: 30px;
+  padding: 20px;
+}
+
+.project-tile {
+  background-color: #323232;
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.project-tile h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.project-tile p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+
+.project-tile:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-tile .view-btn {
+  background-color: #646464; /* Matching the light grey */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.project-tile .view-btn:hover {
+  background-color: #4B4B4B; /* Darker grey on hover */
+}
+
+body {
+  cursor: url('D:\olp\My Work\Websites\portfolio\rajveer\public\Cursors\Cursor_def.png'), default;
+}
+
+a, button, .cta-btn {
+  cursor: url('D:\olp\My Work\Websites\portfolio\rajveer\public\Cursors\cursor_handsign.png'), pointer;
+}
+
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 columns on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-grid {
+    grid-template-columns: 1fr; /* 1 column on extra small screens */
+  }
+}

@@ -1,0 +1,77 @@
+/* General Page Styling */
+.connect-page {
+    background-color: #191919;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+  }
+  
+  /* Get in Touch Section */
+  .get-in-touch h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #C83232;
+  }
+  
+  .get-in-touch p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    line-height: 1.5;
+  }
+  
+  /* Resume Button */
+  .resume-btn {
+    background-color: #646464; /* Matching the light grey */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .resume-btn:hover {
+    background-color: #4B4B4B; /* Darker grey on hover */
+  }
+  
+  
+  /* Social Media Links */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  .social-link:hover {
+    color: #C83232;
+  }
+  
+  .social-link img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+
+  body {
+    cursor: url('D:\olp\My Work\Websites\portfolio\rajveer\public\Cursors\Cursor_def.png'), default;
+  }
+  
+  a, button, .cta-btn {
+    cursor: url('D:\olp\My Work\Websites\portfolio\rajveer\public\Cursors\cursor_handsign.png'), pointer;
+  }
