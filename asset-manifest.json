@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2e8fb168.css",
-    "main.js": "/portfolio/static/js/main.268ad8da.js",
-    "static/js/488.033ed3fa.chunk.js": "/portfolio/static/js/488.033ed3fa.chunk.js",
-    "static/media/excel-icon.png": "/portfolio/static/media/excel-icon.8cb0561142ce0731b453.png",
-    "static/media/pandas-icon.png": "/portfolio/static/media/pandas-icon.7b98bafaff28aed57a67.png",
-    "static/media/python-icon.png": "/portfolio/static/media/python-icon.7396d940a6785f4f6382.png",
-    "static/media/linkedin-icon.png": "/portfolio/static/media/linkedin-icon.3758417bd0802cc727af.png",
-    "static/media/tableau-icon.png": "/portfolio/static/media/tableau-icon.b44bcd20dab092e28863.png",
-    "static/media/numpy-icon.png": "/portfolio/static/media/numpy-icon.9a6715336e5d2a597a85.png",
-    "static/media/email-icon.png": "/portfolio/static/media/email-icon.2d7f457c474160056808.png",
-    "static/media/sql-icon.png": "/portfolio/static/media/sql-icon.ee1edb6279140c0b88a1.png",
-    "static/media/github-icon.png": "/portfolio/static/media/github-icon.7f9bb072fd618ebc2f5a.png",
-    "index.html": "/portfolio/index.html",
-    "main.2e8fb168.css.map": "/portfolio/static/css/main.2e8fb168.css.map",
-    "main.268ad8da.js.map": "/portfolio/static/js/main.268ad8da.js.map",
-    "488.033ed3fa.chunk.js.map": "/portfolio/static/js/488.033ed3fa.chunk.js.map"
+    "main.css": "/static/css/main.2e8fb168.css",
+    "main.js": "/static/js/main.6afc9474.js",
+    "static/js/488.033ed3fa.chunk.js": "/static/js/488.033ed3fa.chunk.js",
+    "static/media/excel-icon.png": "/static/media/excel-icon.8cb0561142ce0731b453.png",
+    "static/media/pandas-icon.png": "/static/media/pandas-icon.7b98bafaff28aed57a67.png",
+    "static/media/python-icon.png": "/static/media/python-icon.7396d940a6785f4f6382.png",
+    "static/media/linkedin-icon.png": "/static/media/linkedin-icon.3758417bd0802cc727af.png",
+    "static/media/tableau-icon.png": "/static/media/tableau-icon.b44bcd20dab092e28863.png",
+    "static/media/numpy-icon.png": "/static/media/numpy-icon.9a6715336e5d2a597a85.png",
+    "static/media/email-icon.png": "/static/media/email-icon.2d7f457c474160056808.png",
+    "static/media/sql-icon.png": "/static/media/sql-icon.ee1edb6279140c0b88a1.png",
+    "static/media/github-icon.png": "/static/media/github-icon.7f9bb072fd618ebc2f5a.png",
+    "index.html": "/index.html",
+    "main.2e8fb168.css.map": "/static/css/main.2e8fb168.css.map",
+    "main.6afc9474.js.map": "/static/js/main.6afc9474.js.map",
+    "488.033ed3fa.chunk.js.map": "/static/js/488.033ed3fa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e8fb168.css",
-    "static/js/main.268ad8da.js"
+    "static/js/main.6afc9474.js"
   ]
 }
